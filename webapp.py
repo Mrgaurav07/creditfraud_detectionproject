@@ -12,8 +12,8 @@ def credit_fraudprediction(features,user_mobile):
  Predictions= model.predict(features)
  
  if(Predictions[0]==1):
-        account_sid = "AC2ef05c93a74ad2a5e2d1e66fe899dadf"
-        auth_token = "a7a60167ccca5d995520c1ddf5902184"
+        account_sid = "AC2ef05c93a74ad2a5e2xxxxxxxx"
+        auth_token = "a7a60167ccca5d99552xxxxxxxx"
         client = Client(account_sid, auth_token)
 
         # Define the message to be sent
